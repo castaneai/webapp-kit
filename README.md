@@ -3,7 +3,7 @@ webapp-kit
 
 簡単にHTML + CSS(LESS) + Javascriptのアプリが作れるキット
 
-![紹介画像] (http://gyazo.com/b74369f7cca68a546a52257fb30a2e2b.png)
+![紹介画像] (http://castaneai.github.io/webapp-kit.png)
 
 事前に必要なもの
 -----------------
