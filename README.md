@@ -9,17 +9,17 @@ webapp-kit
 -----------------
 - [node.js] (http://nodejs.org/)
 - [Google Chrome] (http://www.google.co.jp/intl/ja/chrome/browser/)
-- [Git] (http://git-scm.com/)
 
 はじめよう！
 ------------------
-コマンドラインで操作していく
+このwebapp-kitをzipでダウンロードして適当な場所に解凍
+[zipのダウンロード] (https://github.com/castaneai/webapp-kit/archive/master.zip)
+
+次は解答したwebapp-kitの中で以下の2つのコマンドを実行
 
 ```sh
-$ git clone https://github.com/castaneai/webapp-kit.git
-$ cd webapp-kit
-$ npm install -g gulp
-$ npm install
+npm install -g gulp
+npm install
 ```
 
 実行方法
@@ -27,7 +27,8 @@ $ npm install
 以下のコマンドを打つだけでOK!
 
 ```sh
-$ gulp
+gulp
 ```
 
-ファイルの変更を監視して，html,lessファイルが書き換わるたびにブラウザが再読み込みされる状態になります
+ファイルの変更を監視して，html,lessファイルが書き換わるたびにブラウザが再読み込みされる状態になります。
+Ctrl+Cでgulpを終了させることができます。
